@@ -130,7 +130,7 @@ public class TelaLogin extends javax.swing.JFrame {
         senha = new String (txtSenha.getPassword());
         
         
-        if(usuario.equals("Wesley Ulisses") && senha.equals("1234")){
+        if(usuario.equals("Admin") && senha.equals("Admin")){
             
             new TelaPrincipalSDI().setVisible(true);
             tela.setVisible(false);
